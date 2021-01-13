@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>FrontEnd Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" />
+      </a>
+    </header>
+
+    <nav class="nav">
+      <a class="nav__link " href="index.html">Store</a>
+      <a class="nav__link nav__link--active" href="us.html">About Us</a>
+    </nav>
+
+    <main class="content">
+      <h1>Product</h1>
+
+      <div class="shirt">
+        <img class="shirt__img" src="/img/1.jpg" alt="product image">
+
+        <div class="content__shirt">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, distinctio eveniet sequi quidem sunt error numquam consequuntur nisi fugiat minus aspernatur reprehenderit eum, facere architecto fuga incidunt, expedita earum quia!</p>
+
+          <form class="form">
+            <select>
+              <option disabled selected>-- Select Size--</option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+            </select>
+            <input type="number" placeholder="Quantity" min="1">
+            <input type="submit" value="Add to Cart">
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Front End Store - All Rights Reserved &copy;</p>
+    </footer>
+  </body>
+</html>
